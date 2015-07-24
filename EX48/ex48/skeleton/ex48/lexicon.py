@@ -20,3 +20,4 @@ def scan(words):
 		else:
 			result.append(('error',sword))
 	return result
+	

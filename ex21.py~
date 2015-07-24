@@ -1,0 +1,40 @@
+
+def add(a,b):
+	print " Adding \t %d + %d " % (a, b)
+	return a + b
+
+def sub(a,b):
+	print " Substracting \t %d - %d " % (a, b)
+	return a - b
+
+def mul(a,b):
+	print " Multiplying \t %d * %d " % (a, b)
+	return a * b
+
+def div(a,b):
+	print " Dividing \t %d / %d " % (a, b)
+	return a / b
+
+print "\nLet's do some math with just functions"
+
+res1 = add(30, 20)
+print "Addition is : \t%d" % res1
+
+res2 = sub(25, 15)
+print "Substraction is : %d" % res2
+
+res3 = mul(50, 6)
+print "Multipliction is : %d" % res3
+
+res4 = div(26, 2)
+print "Division is : \t%d" % res4
+
+a = 6
+b = 3
+print "\nWhat will be answer of this Puzel add(a,sub(a,mul(a,div(a,b)))) ????"
+print "Where, \nA : %d \n B : %d \n " % (a, b)
+print "Steps are : \n"
+res5 = add(a,sub(a,mul(a,div(a,b))))
+
+print "Answer is :  " , res5
+

@@ -12,3 +12,4 @@ file_name1=raw_input(">")
 
 txt1 = open(file_name1)
 print txt1.read()
+

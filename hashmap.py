@@ -37,3 +37,4 @@ def list(aMap):
 		if bucket:
 			for k, v in bucket:
 				print k, v
+				

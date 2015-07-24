@@ -49,3 +49,4 @@ def test_error_noparam():
 		
 def check_class(obj):
 	assert_equal(isinstance(obj, Sentence), True)
+	
